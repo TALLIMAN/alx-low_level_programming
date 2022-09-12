@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* the merge creation of positive and negative*/
 /**
- * if : the if statement prints out the result of the program
- * main- the result should return success
+ * main: the result should return success
+ * if: the result was used to print out the possibilities
  * Return: the return has zero value
  * printf: a string of values is printed
  */
