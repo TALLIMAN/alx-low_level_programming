@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o $(printf "$(echo $CFILE | rev | cut -c 1 --complement| rev )s") $CFILE
+gcc -S $(printf "$(echo $CFILE | rev | cut -c 1 --complement| rev )s") -o $CFILE
