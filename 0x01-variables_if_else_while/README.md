@@ -13,4 +13,8 @@ This project is for variables and some loops.
 
 #task 5: this task involves the use of loop to automatically count the numbers, and the printf function to print the number. lastly the use of putchar('\n') to print a new line. Observe that at the end of the printf function, the \n period if inserted will grant a new line for each number printed, hence the \n was not attached to the printf function.
 
-#task 6: this task is just like the above one. the difference is the only use of putchar to print the numbers. 
+#task 6: this task is just like the above one. the difference is the only use of putchar to print the numbers.
+
+#task 7: this task is just like the ones done above (see #task 2 for more information) but the difference is the result is in reverse form. the reverse form is due to the changes in the parameters in the for-loop.
+
+#task 8: this task is just like #task 3. the difference is the change in parameters. 
