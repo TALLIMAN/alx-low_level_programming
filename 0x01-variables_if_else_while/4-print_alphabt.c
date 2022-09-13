@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int cap;
+	int letter;
 
 	letter = 'a';
 		do {
