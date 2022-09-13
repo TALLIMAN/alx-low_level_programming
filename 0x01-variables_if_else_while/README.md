@@ -9,4 +9,6 @@ This project is for variables and some loops.
 
 #task 3: this task involves printing out the alphabets using putchar function which prints out from standard input to the screen.
 
-#task 4: this task involves the use of loop firstly to keep counting the letters, followed by an if statement totell the program to select of what should happen if this character is reached. then the 'continue' which is usedfor skipping the iteration or step in the code. 
+#task 4: this task involves the use of loop firstly to keep counting the letters, followed by an if statement totell the program to select of what should happen if this character is reached. then the 'continue' which is usedfor skipping the iteration or step in the code.
+
+#task 5: this task involves the use of loop to automatically count the numbers, and the printf function to print the number. lastly the use of putchar('\n') to print a new line. Observe that at the end of the printf function, the \n period if inserted will grant a new line for each number printed, hence the \n was not attached to the printf function. 
