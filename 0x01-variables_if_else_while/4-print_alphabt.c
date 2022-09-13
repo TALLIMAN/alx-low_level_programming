@@ -23,7 +23,7 @@ int main(void)
 			}
 			putchar(letter);
 			letter++;
-		} while (letter < 'z');
+		} while (letter <= 'z');
 	putchar('\n');
 	return (0);
 }
