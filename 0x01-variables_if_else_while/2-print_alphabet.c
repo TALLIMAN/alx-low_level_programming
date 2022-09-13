@@ -4,7 +4,10 @@
  * Return: the return value is 0
  */
 int main(void)
+{
+	int letter;
 
-	for (cap = 'a'; cap <= 'z'; cap++)
-		putchar(cap);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 	return (0);
+}
