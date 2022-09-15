@@ -23,7 +23,7 @@ int _abs(int num)
 	{
 		if (num < '0')
 		{
-			result = num;
+			result = -num;
 		}
 	}
 	return (result);
