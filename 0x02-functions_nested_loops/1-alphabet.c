@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * main- check the code...the value should return zero
+ *
+ * Return: return value of zero
+ *
+ * print_alphabet- check the code...no returned value
+ *
+ */
 
 int main(void)
 {
@@ -10,13 +18,13 @@ int main(void)
 void print_alphabet(void)
 {
 	int letter;
+
 	letter = 'a';
 
-	while(letter <= 'z')
+	while (letter <= 'z')
 	{
-		putchar(letter);
+		_putchar(letter);
 		letter++;
 	}
-	putchar('\n');
-	return;
+	_putchar('\n');
 }
