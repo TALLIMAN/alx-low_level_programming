@@ -13,18 +13,9 @@ int _abs(int num)
 {
 	int result;
 
-	if (num > '0')
+	if (num < 0)
 	{
-		result = num;
-	} else if (num == '0')
-	{
-		result = 0;
-	} else
-	{
-		if (num < '0')
-		{
-			result = -num;
-		}
+		num = num * -1;
 	}
-	return (result);
+	return (num);
 }
