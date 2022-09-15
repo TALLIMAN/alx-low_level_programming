@@ -21,7 +21,7 @@ int _abs(int j)
 		result = 0;
 	} else
 	{
-		if (j <= '0')
+		if (j < '0')
 		{
 			result = j * -1;
 		}
