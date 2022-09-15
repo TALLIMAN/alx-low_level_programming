@@ -13,7 +13,7 @@ int _islower(int c)
 {
 	int result;
 
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'a' || c <= 'z')
 	{
 		result = '1';
 	} else
@@ -21,5 +21,5 @@ int _islower(int c)
 		result = '0';
 	}
 
-	return ("result");
+	return (result);
 }
