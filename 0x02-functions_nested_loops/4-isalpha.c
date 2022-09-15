@@ -9,7 +9,7 @@
  * of letters and the return type also int as a due to the datatype
  * of the returned result
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	int result;
 
