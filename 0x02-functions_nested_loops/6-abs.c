@@ -13,9 +13,12 @@ int _abs(int j)
 {
 	int result;
 
-	if (j >= '0')
+	if (j > '0')
 	{
-		result = j * 1;
+		result = j;
+	} else if (j == '0')
+	{
+		result = 0;
 	} else
 	{
 		if (j <= '0')
