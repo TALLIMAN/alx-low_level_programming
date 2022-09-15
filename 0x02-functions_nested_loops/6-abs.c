@@ -15,7 +15,7 @@ int _abs(int j)
 
 	if (j >= '0')
 	{
-		result = j;
+		result = j * 1;
 	} else
 	{
 		if (j <= '0')
