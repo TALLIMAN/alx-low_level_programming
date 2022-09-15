@@ -9,13 +9,13 @@
  * @int: the datatype of the parameter
  *
  */
-int _abs(int)
+int _abs(int j)
 {
 	int result;
 
-	if (int >= '0' || int <= '0')
+	if (j >= '0' || j <= '0')
 	{
-		result = int;
+		result = j;
 	}
 	return (result);
 }
