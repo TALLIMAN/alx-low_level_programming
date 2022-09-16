@@ -10,18 +10,9 @@
 
 int print_last_digit(int num)
 {
-	int space;
-	
-	space = 0;
-	while (space < 2)
-	{
-		int num;
-		
-		if (num <= 0 || num >= 0)
-		{
-			num = num % 10;
-		}
-		space++;
-	}
-	return (num);
+	cal = num % 10;
+	_putchar(cal);
+	_putchar(cal);
+	_putchar('\n');
+	return (cal);
 }
