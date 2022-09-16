@@ -10,11 +10,9 @@
 
 int print_last_digit(int num)
 {
-	int result;
-
 	if (num <= '0' || num >= '0')
 	{
-		result = num % 10;
+		num = num % 10;
 	}
-	return (result);
+	return (num);
 }
