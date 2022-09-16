@@ -10,6 +10,8 @@
 
 int print_last_digit(int num)
 {
+	int cal;
+
 	cal = num % 10;
 	_putchar(cal);
 	_putchar(cal);
