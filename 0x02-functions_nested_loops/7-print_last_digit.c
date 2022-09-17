@@ -13,8 +13,10 @@ int print_last_digit(int num)
 	int cal;
 
 	cal = num % 10;
-	_putchar(cal);
-	_putchar(cal);
-	_putchar('\n');
+	if (cal <= 0)
+	{
+		cal = cal * -1;
+	}
+	_putchar('0' + cal);
 	return (cal);
 }
