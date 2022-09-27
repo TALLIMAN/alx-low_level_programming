@@ -1,0 +1,23 @@
+#include "main.h"
+
+
+/**
+* *_strcpy - the function copies value from one pointer to another
+*
+* @dest: the destination pointer
+* @src: the source pointer
+*
+* Return: the return value is the destination of the pointer
+*/
+
+char *_strcpy(char *dest, char *src)
+{
+	int index = 0;
+
+	while (src[index])
+	{
+		dest[index] = src[index];
+		index++
+	}
+	return (dest);
+}
