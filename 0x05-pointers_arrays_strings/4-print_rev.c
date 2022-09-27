@@ -17,7 +17,8 @@ void print_rev(char *s)
 
 	for (i = 999; *point; i--)
 	{
-		putchar(*point--);
+		putchar(point);
+		*point--;
 	}
 	putchar('\n');
 }
